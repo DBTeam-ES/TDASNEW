@@ -212,7 +212,6 @@ function create_config( )
     "stats",
     "antispam",
     "seed_antispam",
-    "antilink",
     "owners",
     "arabic_lock",
     "set",
