@@ -41,18 +41,25 @@ sudo apt-get update; sudo apt-get upgrade -y --force-yes; sudo apt-get dist-upgr
 ```
 ### Realm configuration 
 
-After you ran bot for first time,turn it off
+After you ran bot for first time, go to bot and use !id command
 
-create an empty group with it
+Get your id then, stop bot
 
-run it again
+open file ./data/config.lua 
 
-obtain that groups id using /id and add its id to realms table in config
-
-```lua
-realm = {},--Realms Id
+add your id to the "sudo_users" section in the following format:
+```
+  sudo_users = {
+    110626080,
+    103649648,
+    111020322,
+    0,
+    YourID
+  }
 ```
 then start the bot again
+
+Create a realm using !createrealm command
 
 # Our team !
 
